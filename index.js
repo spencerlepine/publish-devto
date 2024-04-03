@@ -8,7 +8,6 @@ async function run() {
     const githubToken = core.getInput('github_token');
     const filesGlob = core.getInput('files');
     const branch = core.getInput('branch');
-    const useConventionalCommits = core.getInput('conventional_commits');
     const dryRun = core.getBooleanInput('dry_run');
 
     core.setSecret(devtoKey);
@@ -20,7 +19,6 @@ async function run() {
         githubToken,
         filesGlob,
         branch,
-        useConventionalCommits,
         dryRun
       })
     );
@@ -30,7 +28,6 @@ async function run() {
       devtoKey,
       githubToken,
       branch,
-      useConventionalCommits,
       dryRun
     });
 
