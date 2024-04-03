@@ -5,7 +5,7 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sinedied/publish-devto.git"
+    "url": "https://github.com/spencerlepine/publish-devto.git"
   },
   "private": true,
   "exports": "./dist/index.js",
@@ -15,7 +15,7 @@
     "build": "rm -rf dist && node scripts/build.js",
     "test": "xo",
     "commit:build": "git add dist && git commit -m \"chore: update build\" && git push",
-    "tag": "git tag -d v2 && git push --delete origin v2 && git tag -a v2 -m 'v2' && git push --tags",
+    "tag": "git tag -d v1.0.0 && git push --delete origin v1.0.0 && git tag -a v1.0.0 -m 'v1.0.0' && git push --tags",
     "release": "npm run -s build && npm run -s commit:build && npm run -s tag"
   },
   "keywords": [
@@ -29,12 +29,12 @@
     "sync"
   ],
   "author": {
-    "name": "Yohan Lasorsa",
-    "url": "https://twitter.com/sinedied"
+    "name": "Spencer Lepine",
+    "url": "https://twitter.com/spencerlepine"
   },
-  "homepage": "https://github.com/sinedied/publish-devto",
+  "homepage": "https://github.com/spencerlepine/publish-devto",
   "bugs": {
-    "url": "https://github.com/sinedied/publish-devto/issues"
+    "url": "https://github.com/spencerlepine/publish-devto/issues"
   },
   "license": "MIT",
   "dependencies": {
