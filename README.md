@@ -1,6 +1,6 @@
 # :postbox: publish-devto
 
-[![Build Status](https://github.com/sinedied/publish-devto/workflows/build/badge.svg)](https://github.com/sinedied/publish-devto/actions)
+[![Build Status](https://github.com/spencerlepine/publish-devto/workflows/build/badge.svg)](https://github.com/spencerlepine/publish-devto/actions)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
@@ -12,9 +12,9 @@ See [action.yml](action.yml).
 
 ```yaml
 steps:
-- uses: actions/checkout@v2
+- uses: actions/checkout@v4
 - name: Publish articles on dev.to
-  uses: sinedied/publish-devto@v2
+  uses: spencerlepine/publish-devto@1.0.0
   with:
     # Your dev.to personal API key to publish and update articles.
     # See https://docs.dev.to/api/#section/Authentication/api_key

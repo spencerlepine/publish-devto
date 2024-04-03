@@ -1,6 +1,6 @@
 name: 'Publish to dev.to'
 description: 'Publish markdown files as articles to dev.to platform, using assets hosted on GitHub.'
-author: 'sinedied'
+author: 'spencerlepine'
 branding:
   icon: 'upload'
   color: 'gray-dark'

@@ -5,7 +5,7 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sinedied/publish-devto.git"
+    "url": "https://github.com/spencerlepine/publish-devto.git"
   },
   "private": true,
   "exports": "./dist/index.js",
@@ -29,18 +29,18 @@
     "sync"
   ],
   "author": {
-    "name": "Yohan Lasorsa",
-    "url": "https://twitter.com/sinedied"
+    "name": "Spencer Lepine",
+    "url": "https://twitter.com/spencerlepine"
   },
-  "homepage": "https://github.com/sinedied/publish-devto",
+  "homepage": "https://github.com/spencerlepine/publish-devto",
   "bugs": {
-    "url": "https://github.com/sinedied/publish-devto/issues"
+    "url": "https://github.com/spencerlepine/publish-devto/issues"
   },
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.9.1",
     "@actions/exec": "^1.0.3",
-    "@sinedied/devto-cli": "^1.2.0",
+    "@spencerlepine/devto-cli": "^1.2.0",
     "xo": "^0.54.0"
   },
   "devDependencies": {
