@@ -52,6 +52,27 @@ jobs:
 
 You can use [this template repository](https://github.com/sinedied/devto-github-template) as an example setup.
 
+## Example Article
+
+```markdown
+---
+title: Example article title
+published: false
+description: A simple test article
+tags: 'productivity, beginners, test' # MAX 3 for Dev.to
+cover_image: ./assets/cat.jpg
+canonical_url: null
+---
+
+Some random text with a [link](https://code.visualstudio.com).
+
+## Serious title
+
+Add some text here and there!
+
+![and some pictures too](./assets/cat.jpg)
+```
+
 ## How does it work?
 
 This github action delegates most of the work to the [devto-cli](https://github.com/sinedied/devto-cli) push command.
