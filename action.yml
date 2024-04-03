@@ -1,4 +1,4 @@
-name: 'Publish to dev.to'
+name: 'Publish article to dev.to'
 description: 'Publish markdown files as articles to dev.to platform, using assets hosted on GitHub.'
 author: 'spencerlepine'
 branding:
